@@ -23,13 +23,9 @@ Trial[!complete.cases(Trial),'Age']
 
 Trial$Age [Trial$participant==6] <- 55.0
 View(Trial)
-View(Trial)
 Trial$Gender[Trial$participant==4]<-'male'
-Trial$Weight[Trial$participant==4]<-65
+Trial$Weight[Trial$participant==2]<-56.8
 View(Trial)
-
-
-
 # create a data frame
 Manager<-c(1:5)
 Date<-c('10/15/18', '01/11/18', '10/21/18', '10/28/18', '05/01/18')
